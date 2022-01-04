@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.ChainOfResponsibility", "DesingPatterns.ChainOfResponsibility\DesingPatterns.ChainOfResponsibility.csproj", "{636F2BBF-4353-4E46-9319-89C4BF892DF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.Adapter", "DesingPatterns.Adapter\DesingPatterns.Adapter.csproj", "{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{636F2BBF-4353-4E46-9319-89C4BF892DF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{636F2BBF-4353-4E46-9319-89C4BF892DF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{636F2BBF-4353-4E46-9319-89C4BF892DF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
