@@ -6,7 +6,16 @@ namespace DesignPatterns.Proxies
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            InteriorOffice interiorOffice = new InteriorOffice();
+
+            IShowInfo interriorMachine = new InteriorOfficeProxy(interiorOffice);
+
+            ShowId(interriorMachine);
+        }
+
+        static void ShowId(IShowInfo info)
+        {
+            info.ShowID();
         }
     }
 }
