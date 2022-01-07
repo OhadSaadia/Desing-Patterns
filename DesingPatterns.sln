@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.ChainOfResponsibility", "DesingPatterns.ChainOfResponsibility\DesingPatterns.ChainOfResponsibility.csproj", "{636F2BBF-4353-4E46-9319-89C4BF892DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns.ChainOfResponsibility", "DesingPatterns.ChainOfResponsibility\DesingPatterns.ChainOfResponsibility.csproj", "{636F2BBF-4353-4E46-9319-89C4BF892DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.Adapter", "DesingPatterns.Adapter\DesingPatterns.Adapter.csproj", "{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns.Adapter", "DesingPatterns.Adapter\DesingPatterns.Adapter.csproj", "{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns.FactoryMethod", "DesingPatterns.FactoryMethod\DesingPatterns.FactoryMethod.csproj", "{41981D4E-AAC1-40E4-A362-1C28F5A7B925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Proxies", "DesignPatterns.Proxies\DesignPatterns.Proxies.csproj", "{89964C7E-1C2A-4193-860B-211DF4458DC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{474A7CA7-63E9-4605-8E90-E5487D6E0EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41981D4E-AAC1-40E4-A362-1C28F5A7B925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41981D4E-AAC1-40E4-A362-1C28F5A7B925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41981D4E-AAC1-40E4-A362-1C28F5A7B925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41981D4E-AAC1-40E4-A362-1C28F5A7B925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89964C7E-1C2A-4193-860B-211DF4458DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89964C7E-1C2A-4193-860B-211DF4458DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89964C7E-1C2A-4193-860B-211DF4458DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89964C7E-1C2A-4193-860B-211DF4458DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
