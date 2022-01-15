@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns.Adapter", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns.FactoryMethod", "DesingPatterns.FactoryMethod\DesingPatterns.FactoryMethod.csproj", "{41981D4E-AAC1-40E4-A362-1C28F5A7B925}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Proxies", "DesignPatterns.Proxies\DesignPatterns.Proxies.csproj", "{89964C7E-1C2A-4193-860B-211DF4458DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Proxies", "DesignPatterns.Proxies\DesignPatterns.Proxies.csproj", "{89964C7E-1C2A-4193-860B-211DF4458DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.Strategy", "DesingPatterns.Stragedy\DesingPatterns.Strategy.csproj", "{31730F36-5856-41AE-A2ED-14B58A87067C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns.Strategy", "DesingPatterns.Stragedy\DesingPatterns.Strategy.csproj", "{31730F36-5856-41AE-A2ED-14B58A87067C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.Prototype", "DesingPatterns.Prototype\DesingPatterns.Prototype.csproj", "{D333E808-5352-4DEB-AC88-2971F399CDD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesingPatterns.Prototype", "DesingPatterns.Prototype\DesingPatterns.Prototype.csproj", "{D333E808-5352-4DEB-AC88-2971F399CDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.Builder", "DesingPatterns.Builder\DesingPatterns.Builder.csproj", "{A170AB52-2E30-40B8-9AF8-2D1D49BEEBD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesingPatterns.FluentBuilder", "DesingPatterns.FluentBuilder\DesingPatterns.FluentBuilder.csproj", "{016B4122-6ADC-4D4C-A68D-05F5C7CDDF36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{D333E808-5352-4DEB-AC88-2971F399CDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D333E808-5352-4DEB-AC88-2971F399CDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D333E808-5352-4DEB-AC88-2971F399CDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A170AB52-2E30-40B8-9AF8-2D1D49BEEBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A170AB52-2E30-40B8-9AF8-2D1D49BEEBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A170AB52-2E30-40B8-9AF8-2D1D49BEEBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A170AB52-2E30-40B8-9AF8-2D1D49BEEBD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{016B4122-6ADC-4D4C-A68D-05F5C7CDDF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{016B4122-6ADC-4D4C-A68D-05F5C7CDDF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{016B4122-6ADC-4D4C-A68D-05F5C7CDDF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{016B4122-6ADC-4D4C-A68D-05F5C7CDDF36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
